@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(234, 239, 239);
+}
+.container {
+  height: 500px;
+  width: 700px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  background-color: white;
+}
+.sideimg {
+  width: 400px;
+  /* 
+  border: 2px solid black; */
+}
+.side img {
+  width: 400px;
+  height: 500px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sidetext {
+  width: 400px;
+  /* border: 2px solid black; */
+  margin-left: 400px;
+  height: 500px;
+  /* padding-bottom: 600px; */
+  position: relative;
+  bottom: 505px;
+  border-radius: 10px;
+}
+.perfume {
+  padding-top: 25px;
+  padding-left: 25px;
+  font-family: sans-serif;
+}
+.h11 {
+  font-family: sans-serif;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.parag {
+  font-family: sans-serif;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.parage {
+  font-family: sans-serif;
+  padding-left: 25px;
+}
+.price1 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 35px;
+  padding-left: 25px;
+}
+.price1 h5 {
+  margin-top: 12px;
+  padding-left: 22px;
+}
+.h1price {
+  color: green;
+}
+.cartm {
+  /* width: 100px;
+  height: 50px; */
+  padding-bottom: 25px;
+}
+.cart {
+  font-family: sans-serif;
+  padding-top: 25px;
+  /* padding-left: 25px; */
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+  width: 220px;
+  height: 20px;
+  border-radius: 15px;
+  font-size: 11px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  position: relative;
+  right: 10px;
+  bottom: 12px;
+}
